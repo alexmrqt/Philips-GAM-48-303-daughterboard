@@ -1,5 +1,7 @@
 # Philips GAM 48-303 fix
 
+![PCB image](soldering-station-hat.png)
+
 ## Presentation
 I am, since many years, the proud owner of a Philips GAM 48-303 soldering station.
 This is an old piece of hardware, that works well nonetheless, and can even drive a brand new Hakko 907.
