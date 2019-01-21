@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP U106BS
+D Monolithic integrated zero voltage switch
+F u106bs.pdf
+$ENDCMP
+#
+#End Doc Library

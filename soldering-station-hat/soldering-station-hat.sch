@@ -1,0 +1,625 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:UAA2016PG
+LIBS:soldering-station-hat-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Philips GAM 48-303 soldering station hat."
+Date "2019-01-21"
+Rev ""
+Comp "Alexandre Marquet"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CA3140 U2
+U 1 1 5C44AC1C
+P 9600 2650
+F 0 "U2" H 9600 2900 50  0000 L CNN
+F 1 "CA3140" H 9600 2800 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm" H 9500 2550 50  0001 C CNN
+F 3 "" H 9600 2650 50  0000 C CNN
+	1    9600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L UAA2016PG IC1
+U 1 1 5C44AEC2
+P 5000 2450
+F 0 "IC1" H 6450 2750 50  0000 L CNN
+F 1 "UAA2016PG" H 6450 2650 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm" H 6450 2550 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/UAA2016-D.PDF" H 6450 2450 50  0001 L CNN
+F 4 "Zero Voltage Switch Power Controller" H 6450 2350 50  0001 L CNN "Description"
+F 5 "4.45" H 6450 2250 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 6450 2150 50  0001 L CNN "Manufacturer_Name"
+F 7 "UAA2016PG" H 6450 2050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "5165629" H 6450 1950 50  0001 L CNN "RS Part Number"
+F 9 "" H 6450 1850 50  0001 L CNN "RS Price/Stock"
+F 10 "70341611" H 6450 1750 50  0001 L CNN "Allied_Number"
+F 11 "http://www.alliedelec.com/on-semiconductor-uaa2016pg/70341611/" H 6450 1650 50  0001 L CNN "Allied Price/Stock"
+F 12 "5165629" H 6450 1550 50  0001 L CNN "Mouser Part Number"
+F 13 "" H 6450 1450 50  0001 L CNN "Mouser Price/Stock"
+	1    5000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X08 P3
+U 1 1 5C44AFD7
+P 2850 6250
+F 0 "P3" H 2850 6700 50  0000 C CNN
+F 1 "CONN_01X08" V 2950 6250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 2850 6250 50  0001 C CNN
+F 3 "" H 2850 6250 50  0000 C CNN
+	1    2850 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P2
+U 1 1 5C44B024
+P 1050 7300
+F 0 "P2" H 1050 7550 50  0000 C CNN
+F 1 "CONN_01X04" V 1150 7300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1050 7300 50  0001 C CNN
+F 3 "" H 1050 7300 50  0000 C CNN
+	1    1050 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X04 P4
+U 1 1 5C44B097
+P 2850 7250
+F 0 "P4" H 2850 7500 50  0000 C CNN
+F 1 "CONN_01X04" V 2950 7250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 2850 7250 50  0001 C CNN
+F 3 "" H 2850 7250 50  0000 C CNN
+	1    2850 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X08 P1
+U 1 1 5C44B111
+P 1050 6250
+F 0 "P1" H 1050 6700 50  0000 C CNN
+F 1 "CONN_01X08" V 1150 6250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 1050 6250 50  0001 C CNN
+F 3 "" H 1050 6250 50  0000 C CNN
+	1    1050 6250
+	-1   0    0    1   
+$EndComp
+Text Label 1300 7450 0    60   ~ 0
+CA3140_1
+Text Label 1300 7350 0    60   ~ 0
+CA3140_2
+Text Label 1300 7250 0    60   ~ 0
+CA3140_3
+Text Label 1300 7150 0    60   ~ 0
+CA3140_4
+Text Label 2550 7100 2    60   ~ 0
+CA3140_5
+Text Label 2550 7200 2    60   ~ 0
+CA3140_6
+Text Label 2550 7300 2    60   ~ 0
+CA3140_7
+Text Label 2550 7400 2    60   ~ 0
+CA3140_8
+Wire Wire Line
+	2550 7400 2650 7400
+Wire Wire Line
+	2650 7300 2550 7300
+Wire Wire Line
+	2550 7200 2650 7200
+Wire Wire Line
+	2650 7100 2550 7100
+Wire Wire Line
+	1300 7150 1250 7150
+Wire Wire Line
+	1250 7250 1300 7250
+Wire Wire Line
+	1250 7350 1300 7350
+Wire Wire Line
+	1300 7450 1250 7450
+Text Label 1300 6600 0    60   ~ 0
+U106BS_1
+Text Label 1300 6500 0    60   ~ 0
+U106BS_2
+Text Label 1300 6400 0    60   ~ 0
+U106BS_3
+Text Label 1300 6300 0    60   ~ 0
+U106BS_4
+Text Label 1300 6200 0    60   ~ 0
+U106BS_5
+Text Label 1300 6100 0    60   ~ 0
+U106BS_6
+Text Label 1300 6000 0    60   ~ 0
+U106BS_7
+Text Label 1300 5900 0    60   ~ 0
+U106BS_8
+Text Label 2600 6600 2    60   ~ 0
+U106BS_16
+Text Label 2600 6500 2    60   ~ 0
+U106BS_15
+Text Label 2600 6400 2    60   ~ 0
+U106BS_14
+Text Label 2600 6300 2    60   ~ 0
+U106BS_13
+Text Label 2600 6200 2    60   ~ 0
+U106BS_12
+Text Label 2600 6100 2    60   ~ 0
+U106BS_11
+Text Label 2600 6000 2    60   ~ 0
+U106BS_10
+Text Label 2600 5900 2    60   ~ 0
+U106BS_9
+Wire Wire Line
+	1300 5900 1250 5900
+Wire Wire Line
+	1300 6000 1250 6000
+Wire Wire Line
+	1250 6100 1300 6100
+Wire Wire Line
+	1300 6200 1250 6200
+Wire Wire Line
+	1250 6300 1300 6300
+Wire Wire Line
+	1300 6400 1250 6400
+Wire Wire Line
+	1250 6500 1300 6500
+Wire Wire Line
+	1300 6600 1250 6600
+Wire Wire Line
+	2650 5900 2600 5900
+Wire Wire Line
+	2600 6000 2650 6000
+Wire Wire Line
+	2650 6100 2600 6100
+Wire Wire Line
+	2600 6200 2650 6200
+Wire Wire Line
+	2650 6300 2600 6300
+Wire Wire Line
+	2600 6400 2650 6400
+Wire Wire Line
+	2650 6500 2600 6500
+Wire Wire Line
+	2600 6600 2650 6600
+Text Label 1850 5450 2    60   ~ 0
+CA3140_6
+Text Label 9500 2250 0    60   ~ 0
+Vcc
+Text Label 9500 3050 3    60   ~ 0
+Vee
+Wire Wire Line
+	9500 3050 9500 2950
+Wire Wire Line
+	9500 2350 9500 2250
+Text Label 9200 2550 2    60   ~ 0
+Temp_error
+Wire Wire Line
+	9200 2550 9300 2550
+NoConn ~ 9600 2950
+NoConn ~ 9700 2950
+NoConn ~ 9800 2950
+Text Label 10100 2650 0    60   ~ 0
+Temp_error_amp
+Wire Wire Line
+	10100 2650 9900 2650
+$Comp
+L POT RV1
+U 1 1 5C44C25A
+P 8450 2750
+F 0 "RV1" H 8450 2670 50  0000 C CNN
+F 1 "200k" H 8450 2750 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_WirePads_Small" H 8450 2750 50  0001 C CNN
+F 3 "" H 8450 2750 50  0000 C CNN
+	1    8450 2750
+	0    1    1    0   
+$EndComp
+Text Label 4950 2450 2    60   ~ 0
+Vref
+Wire Wire Line
+	4950 2450 5000 2450
+Wire Wire Line
+	8600 2750 9300 2750
+Wire Wire Line
+	8450 2600 8450 2150
+Wire Wire Line
+	8450 2150 10000 2150
+Wire Wire Line
+	10000 2150 10000 2650
+Connection ~ 10000 2650
+Text Label 8450 3000 3    60   ~ 0
+Vref
+Wire Wire Line
+	8450 3000 8450 2900
+Text Notes 8400 2050 0    60   ~ 0
+Having a potentiometer instead of\n68k + 120k resistors to set th gain\nshould allow to accomodate for several NTC.
+Text Label 2050 5450 0    60   ~ 0
+Temp_error
+NoConn ~ 5000 2550
+NoConn ~ 5000 2750
+Text Label 4950 2650 2    60   ~ 0
+Temp_error_amp
+Wire Wire Line
+	4950 2650 5000 2650
+Text Label 2050 5200 0    60   ~ 0
+Vcc
+Text Label 2050 5300 0    60   ~ 0
+Vee
+Text Label 1850 5200 2    60   ~ 0
+U106BS_7
+Wire Wire Line
+	1850 5200 2050 5200
+Text Label 1850 5300 2    60   ~ 0
+U106BS_9
+Wire Wire Line
+	1850 5300 2050 5300
+Text Label 6750 2550 0    60   ~ 0
+Vcc
+Wire Wire Line
+	6750 2550 6600 2550
+Text Label 6750 2750 0    60   ~ 0
+Vee
+Wire Wire Line
+	6750 2750 6600 2750
+Text Label 6800 2450 0    60   ~ 0
+U106BS_14
+Wire Wire Line
+	6800 2450 6600 2450
+Text Label 6800 2650 0    60   ~ 0
+U106BS_10
+Wire Wire Line
+	6800 2650 6600 2650
+Text Notes 5350 1950 0    60   ~ 0
+U106BS replacement.
+Text Label 5750 6950 3    60   ~ 0
+CA3140_1
+Text Label 5500 6950 3    60   ~ 0
+CA3140_2
+Text Label 5250 6950 3    60   ~ 0
+CA3140_3
+Text Label 5000 6950 3    60   ~ 0
+CA3140_4
+Text Label 4750 6950 3    60   ~ 0
+CA3140_5
+Text Label 4250 6950 3    60   ~ 0
+CA3140_7
+Text Label 4000 6950 3    60   ~ 0
+CA3140_8
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 5C44D8D2
+P 4000 6700
+F 0 "#FLG01" H 4000 6795 50  0001 C CNN
+F 1 "PWR_FLAG" H 4000 6880 50  0000 C CNN
+F 2 "" H 4000 6700 50  0000 C CNN
+F 3 "" H 4000 6700 50  0000 C CNN
+	1    4000 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 5C44D8FC
+P 4250 6850
+F 0 "#FLG02" H 4250 6945 50  0001 C CNN
+F 1 "PWR_FLAG" H 4250 7030 50  0000 C CNN
+F 2 "" H 4250 6850 50  0000 C CNN
+F 3 "" H 4250 6850 50  0000 C CNN
+	1    4250 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 5C44D983
+P 4750 6850
+F 0 "#FLG03" H 4750 6945 50  0001 C CNN
+F 1 "PWR_FLAG" H 4750 7030 50  0000 C CNN
+F 2 "" H 4750 6850 50  0000 C CNN
+F 3 "" H 4750 6850 50  0000 C CNN
+	1    4750 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 5C44D999
+P 5000 6700
+F 0 "#FLG04" H 5000 6795 50  0001 C CNN
+F 1 "PWR_FLAG" H 5000 6880 50  0000 C CNN
+F 2 "" H 5000 6700 50  0000 C CNN
+F 3 "" H 5000 6700 50  0000 C CNN
+	1    5000 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 5C44D99F
+P 5250 6850
+F 0 "#FLG05" H 5250 6945 50  0001 C CNN
+F 1 "PWR_FLAG" H 5250 7030 50  0000 C CNN
+F 2 "" H 5250 6850 50  0000 C CNN
+F 3 "" H 5250 6850 50  0000 C CNN
+	1    5250 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG06
+U 1 1 5C44D9A5
+P 5500 6700
+F 0 "#FLG06" H 5500 6795 50  0001 C CNN
+F 1 "PWR_FLAG" H 5500 6880 50  0000 C CNN
+F 2 "" H 5500 6700 50  0000 C CNN
+F 3 "" H 5500 6700 50  0000 C CNN
+	1    5500 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG07
+U 1 1 5C44D9AB
+P 5750 6850
+F 0 "#FLG07" H 5750 6945 50  0001 C CNN
+F 1 "PWR_FLAG" H 5750 7030 50  0000 C CNN
+F 2 "" H 5750 6850 50  0000 C CNN
+F 3 "" H 5750 6850 50  0000 C CNN
+	1    5750 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 6950 5750 6850
+Wire Wire Line
+	5500 6700 5500 6950
+Wire Wire Line
+	5250 6950 5250 6850
+Wire Wire Line
+	5000 6700 5000 6950
+Wire Wire Line
+	4750 6950 4750 6850
+Wire Wire Line
+	4250 6950 4250 6850
+Wire Wire Line
+	4000 6950 4000 6700
+$Comp
+L PWR_FLAG #FLG08
+U 1 1 5C44DCB7
+P 3900 5600
+F 0 "#FLG08" H 3900 5695 50  0001 C CNN
+F 1 "PWR_FLAG" H 3900 5780 50  0000 C CNN
+F 2 "" H 3900 5600 50  0000 C CNN
+F 3 "" H 3900 5600 50  0000 C CNN
+	1    3900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG09
+U 1 1 5C44DCBD
+P 4150 5750
+F 0 "#FLG09" H 4150 5845 50  0001 C CNN
+F 1 "PWR_FLAG" H 4150 5930 50  0000 C CNN
+F 2 "" H 4150 5750 50  0000 C CNN
+F 3 "" H 4150 5750 50  0000 C CNN
+	1    4150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG010
+U 1 1 5C44DCC9
+P 4650 5750
+F 0 "#FLG010" H 4650 5845 50  0001 C CNN
+F 1 "PWR_FLAG" H 4650 5930 50  0000 C CNN
+F 2 "" H 4650 5750 50  0000 C CNN
+F 3 "" H 4650 5750 50  0000 C CNN
+	1    4650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG011
+U 1 1 5C44DCCF
+P 4900 5600
+F 0 "#FLG011" H 4900 5695 50  0001 C CNN
+F 1 "PWR_FLAG" H 4900 5780 50  0000 C CNN
+F 2 "" H 4900 5600 50  0000 C CNN
+F 3 "" H 4900 5600 50  0000 C CNN
+	1    4900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG012
+U 1 1 5C44DCD5
+P 5150 5750
+F 0 "#FLG012" H 5150 5845 50  0001 C CNN
+F 1 "PWR_FLAG" H 5150 5930 50  0000 C CNN
+F 2 "" H 5150 5750 50  0000 C CNN
+F 3 "" H 5150 5750 50  0000 C CNN
+	1    5150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG013
+U 1 1 5C44DD1B
+P 5900 5600
+F 0 "#FLG013" H 5900 5695 50  0001 C CNN
+F 1 "PWR_FLAG" H 5900 5780 50  0000 C CNN
+F 2 "" H 5900 5600 50  0000 C CNN
+F 3 "" H 5900 5600 50  0000 C CNN
+	1    5900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG014
+U 1 1 5C44DD27
+P 6400 5600
+F 0 "#FLG014" H 6400 5695 50  0001 C CNN
+F 1 "PWR_FLAG" H 6400 5780 50  0000 C CNN
+F 2 "" H 6400 5600 50  0000 C CNN
+F 3 "" H 6400 5600 50  0000 C CNN
+	1    6400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG015
+U 1 1 5C44DD2D
+P 6650 5750
+F 0 "#FLG015" H 6650 5845 50  0001 C CNN
+F 1 "PWR_FLAG" H 6650 5930 50  0000 C CNN
+F 2 "" H 6650 5750 50  0000 C CNN
+F 3 "" H 6650 5750 50  0000 C CNN
+	1    6650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG016
+U 1 1 5C44DD33
+P 6900 5600
+F 0 "#FLG016" H 6900 5695 50  0001 C CNN
+F 1 "PWR_FLAG" H 6900 5780 50  0000 C CNN
+F 2 "" H 6900 5600 50  0000 C CNN
+F 3 "" H 6900 5600 50  0000 C CNN
+	1    6900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG017
+U 1 1 5C44DD39
+P 7150 5750
+F 0 "#FLG017" H 7150 5845 50  0001 C CNN
+F 1 "PWR_FLAG" H 7150 5930 50  0000 C CNN
+F 2 "" H 7150 5750 50  0000 C CNN
+F 3 "" H 7150 5750 50  0000 C CNN
+	1    7150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG018
+U 1 1 5C44DD3F
+P 7400 5600
+F 0 "#FLG018" H 7400 5695 50  0001 C CNN
+F 1 "PWR_FLAG" H 7400 5780 50  0000 C CNN
+F 2 "" H 7400 5600 50  0000 C CNN
+F 3 "" H 7400 5600 50  0000 C CNN
+	1    7400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG019
+U 1 1 5C44DD45
+P 7650 5750
+F 0 "#FLG019" H 7650 5845 50  0001 C CNN
+F 1 "PWR_FLAG" H 7650 5930 50  0000 C CNN
+F 2 "" H 7650 5750 50  0000 C CNN
+F 3 "" H 7650 5750 50  0000 C CNN
+	1    7650 5750
+	1    0    0    -1  
+$EndComp
+Text Label 7650 5900 3    60   ~ 0
+U106BS_1
+Text Label 7400 5900 3    60   ~ 0
+U106BS_2
+Text Label 7150 5900 3    60   ~ 0
+U106BS_3
+Text Label 6900 5900 3    60   ~ 0
+U106BS_4
+Text Label 6650 5900 3    60   ~ 0
+U106BS_5
+Text Label 6400 5900 3    60   ~ 0
+U106BS_6
+Text Label 5900 5900 3    60   ~ 0
+U106BS_8
+Text Label 3900 5900 3    60   ~ 0
+U106BS_16
+Text Label 4150 5900 3    60   ~ 0
+U106BS_15
+Text Label 4650 5900 3    60   ~ 0
+U106BS_13
+Text Label 4900 5900 3    60   ~ 0
+U106BS_12
+Text Label 5150 5900 3    60   ~ 0
+U106BS_11
+Wire Wire Line
+	3900 5900 3900 5600
+Wire Wire Line
+	4150 5750 4150 5900
+Wire Wire Line
+	4650 5750 4650 5900
+Wire Wire Line
+	4900 5900 4900 5600
+Wire Wire Line
+	5150 5900 5150 5750
+Wire Wire Line
+	5900 5600 5900 5900
+Wire Wire Line
+	6400 5600 6400 5900
+Wire Wire Line
+	6650 5900 6650 5750
+Wire Wire Line
+	6900 5600 6900 5900
+Wire Wire Line
+	7150 5900 7150 5750
+Wire Wire Line
+	7400 5600 7400 5900
+Wire Wire Line
+	7650 5900 7650 5750
+Wire Wire Line
+	6150 5900 6150 5750
+Text Label 6150 5900 3    60   ~ 0
+U106BS_7
+$Comp
+L PWR_FLAG #FLG020
+U 1 1 5C44DD21
+P 6150 5750
+F 0 "#FLG020" H 6150 5845 50  0001 C CNN
+F 1 "PWR_FLAG" H 6150 5930 50  0000 C CNN
+F 2 "" H 6150 5750 50  0000 C CNN
+F 3 "" H 6150 5750 50  0000 C CNN
+	1    6150 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5900 5650 5750
+Text Label 5650 5900 3    60   ~ 0
+U106BS_9
+$Comp
+L PWR_FLAG #FLG021
+U 1 1 5C44DCE1
+P 5650 5750
+F 0 "#FLG021" H 5650 5845 50  0001 C CNN
+F 1 "PWR_FLAG" H 5650 5930 50  0000 C CNN
+F 2 "" H 5650 5750 50  0000 C CNN
+F 3 "" H 5650 5750 50  0000 C CNN
+	1    5650 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 5450 1850 5450
+$EndSCHEMATC

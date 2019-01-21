@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model UAA2016PG
+#/227282/87529/2.35/8/3/Integrated Circuit
+DEF UAA2016PG IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "UAA2016PG" 1450 200 50 H V L CNN
+F2 "DIP762W51P254L978H445Q8N" 1450 100 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/UAA2016-D.PDF" 1450 0 50 H I L CNN
+F4 "Zero Voltage Switch Power Controller" 1450 -100 50 H I L CNN "Description"
+F5 "4.45" 1450 -200 50 H I L CNN "Height"
+F6 "ON Semiconductor" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "UAA2016PG" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "5165629" 1450 -500 50 H I L CNN "RS Part Number"
+F9 "" 1450 -600 50 H I L CNN "RS Price/Stock"
+F10 "70341611" 1450 -700 50 H I L CNN "Allied_Number"
+F11 "http://www.alliedelec.com/on-semiconductor-uaa2016pg/70341611/" 1450 -800 50 H I L CNN "Allied Price/Stock"
+F12 "5165629" 1450 -900 50 H I L CNN "Mouser Part Number"
+F13 "" 1450 -1000 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X VREF 1 0 0 200 R 50 50 0 0 B
+X HYS.ADJ. 2 0 -100 200 R 50 50 0 0 B
+X SENSOR 3 0 -200 200 R 50 50 0 0 B
+X TEMP.REDUC. 4 0 -300 200 R 50 50 0 0 B
+X SYNC 8 1600 0 200 L 50 50 0 0 B
+X VCC 7 1600 -100 200 L 50 50 0 0 B
+X OUTPUT 6 1600 -200 200 L 50 50 0 0 B
+X VEE 5 1600 -300 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 1400 100 1400 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
